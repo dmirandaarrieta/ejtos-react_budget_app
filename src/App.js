@@ -21,6 +21,9 @@ const App = () => {
                         <RemainingBudget />
                     </div>
                     <div className='col-sm'>
+                        <Location />
+                    </div>
+                    <div className='col-sm'>
                         <ExpenseTotal />
                     </div>
                 </div>

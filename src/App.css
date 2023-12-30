@@ -36,3 +36,25 @@
     transform: rotate(360deg);
   }
 }
+.App-list{
+    select {
+        padding: 10px;
+        font-size: 16px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        outline: none;
+        cursor: pointer;
+      }
+      
+      /* Estilo para las opciones dentro del elemento select */
+      select option {
+        background-color: #fff;
+        color: #333;
+        padding: 10px;
+      }
+      
+      /* Estilo para las opciones cuando se seleccionan */
+      select option:checked {
+        background-color: #e0e0e0;
+      }
+}
